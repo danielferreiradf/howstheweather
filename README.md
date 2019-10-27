@@ -37,7 +37,7 @@ Generates **dist** folder with the app production version and deploys to netlify
 
 ## Live Version
 
-[HowsWeatherApp](https://www.howsweatherapp.netlify.com/)
+[HowsWeatherApp](https://howsweatherapp.netlify.com/)
 
 ## Author
 
