@@ -4,8 +4,10 @@ html {
 }
 body {
   font-family: "Exo", sans-serif;
+  background: linear-gradient(to bottom, #373b44, #4286f4);
 }
 .container {
   max-width: 1100px;
   margin: 0 auto;
+  padding: 0 1rem;
 }

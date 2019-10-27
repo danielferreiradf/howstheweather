@@ -10,7 +10,7 @@
     <header id="header">
       <div class="container">
         <nav class="nav">
-          <img src="./img/animated/weather.svg" alt="Icon" />
+          <img src="../img/animated/weather.svg" alt="Icon" />
           <h1>
             <a href="/">
               HowsWeatherApp
@@ -24,15 +24,49 @@
       <div class="container">
         <div class="section-a-content">
           <h1>Insert a city and check the weather</h1>
-          <form>
+          <p>Ex: New York, US</p>
+          <form id="city-form">
             <input
               type="text"
               id="city"
               class="input-city"
               placeholder="Find your location"
+              name="city"
             />
             <button type="submit">Find</button>
           </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-b">
+      <div class="container">
+        <div class="section-b-content">
+          <div class="section-b-info1">
+            <h1 class="cityInfo">Sao Paulo, <span></span></h1>
+            <img
+              class="cityIcon"
+              src="../img/animated/cloudy-day-2.svg"
+              alt="Weather Icon"
+            />
+            <h3 class="cityTemp">10 ºC</h3>
+            <p class="cityWeatherDesc">Weather description</p>
+          </div>
+          <div class="section-b-info2">
+            <p class="cityObsTime">obser time</p>
+            <p class="citySunrise">sunrise</p>
+            <p class="citySunset">sunset</p>
+          </div>
+          <div class="section-b-info3">
+            <p class="cityFeelsLike">app_temp</p>
+            <p class="cityWindSpeed">wind_speed</p>
+            <p class="cityWindDir">wind_dir</p>
+          </div>
+          <div class="section-b-info4">
+            <p class="cityRelaHumi">relative humi</p>
+            <p class="cityClouds">city clouds</p>
+            <p class="citySolarRad">solar_rad</p>
+          </div>
         </div>
       </div>
     </section>
@@ -48,22 +82,22 @@
           </h1>
           <div class="socials">
             <a href="https://www.github.com/danielferreiradf" target="_blank"
-              ><img src="./img/github.svg" alt="Github"
+              ><img src="../img/github.svg" alt="Github"
             /></a>
 
             <a href="https://www.twitter.com/danferreiradfs" target="_blank"
-              ><img src="./img/twitter.svg" alt="Twitter"
+              ><img src="../img/twitter.svg" alt="Twitter"
             /></a>
 
             <a
               href="https://www.linkedin.com/in/danielferreiradf/"
               target="_blank"
-              ><img src="./img/linkedin.svg" alt="Linkedin"
+              ><img src="../img/linkedin.svg" alt="Linkedin"
             /></a>
           </div>
         </div>
       </div>
     </footer>
-    <script src="./js/index.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>
